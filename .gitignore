@@ -1,0 +1,11 @@
+__pycache__/
+env/
+venv/
+module3/
+.idea/
+*.__init__.py
+Generator_expression.py
+lesson3.py
+main.py
+StrDemo.py
+StrTest.py
