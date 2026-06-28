@@ -2,3 +2,5 @@ psutil
 black
 isort
 flake8
+names
+numpy
