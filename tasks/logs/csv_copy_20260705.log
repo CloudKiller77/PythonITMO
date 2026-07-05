@@ -1,0 +1,24 @@
+2026-07-05 20:15:26 - INFO - ============================================================
+2026-07-05 20:15:26 - INFO - ЗАПУСК ПРОГРАММЫ КОПИРОВАНИЯ CSV ФАЙЛОВ
+2026-07-05 20:15:26 - INFO - Дата и время запуска: 2026-07-05 20:15:26
+2026-07-05 20:15:26 - INFO - Список файлов для обработки (4 файлов):
+2026-07-05 20:15:26 - INFO -   - D:\My_work\pythonITMO\data\input.csv
+2026-07-05 20:15:26 - INFO -   - D:\My_work\pythonITMO\data\input_m.csv
+2026-07-05 20:15:26 - INFO -   - D:\My_work\pythonITMO\data\orderdata_new.csv
+2026-07-05 20:15:26 - INFO -   - D:\My_work\pythonITMO\data\nonexistent_file.csv
+2026-07-05 20:15:26 - INFO - Выходная директория: D:\My_work\pythonITMO\tasks\output
+2026-07-05 20:15:26 - INFO - Создан выходной файл: D:\My_work\pythonITMO\tasks\output\2026-07-05_20-15-26_combined_data.txt
+2026-07-05 20:15:26 - INFO - Обработка файла 1/4: D:\My_work\pythonITMO\data\input.csv
+2026-07-05 20:15:26 - INFO - Успешно скопирован файл: D:\My_work\pythonITMO\data\input.csv (строк: 1001)
+2026-07-05 20:15:26 - INFO - Обработка файла 2/4: D:\My_work\pythonITMO\data\input_m.csv
+2026-07-05 20:15:26 - INFO - Успешно скопирован файл: D:\My_work\pythonITMO\data\input_m.csv (строк: 101)
+2026-07-05 20:15:26 - INFO - Обработка файла 3/4: D:\My_work\pythonITMO\data\orderdata_new.csv
+2026-07-05 20:15:26 - INFO - Успешно скопирован файл: D:\My_work\pythonITMO\data\orderdata_new.csv (строк: 1001)
+2026-07-05 20:15:26 - INFO - Обработка файла 4/4: D:\My_work\pythonITMO\data\nonexistent_file.csv
+2026-07-05 20:15:26 - ERROR - ✗ Файл не найден: D:\My_work\pythonITMO\data\nonexistent_file.csv
+2026-07-05 20:15:26 - INFO - ============================================================
+2026-07-05 20:15:26 - INFO - ОБРАБОТКА ЗАВЕРШЕНА
+2026-07-05 20:15:26 - INFO - Выходной файл: D:\My_work\pythonITMO\tasks\output\2026-07-05_20-15-26_combined_data.txt
+2026-07-05 20:15:26 - INFO - Программа успешно завершила работу
+2026-07-05 20:15:26 - INFO - ============================================================
+
