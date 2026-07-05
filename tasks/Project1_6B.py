@@ -163,7 +163,7 @@ def main():
         'D:\My_work\pythonITMO\data\\nonexistent_file.csv',  # Этого файла нет
     ]
 
-    # С путей
+    # Наименование путей
     current_dir = Path.cwd()
     log_directory = current_dir / 'logs'
     output_directory = current_dir / 'output'
@@ -178,22 +178,15 @@ def main():
 
     logger.info("=" * 60)
     logger.info("ЗАПУСК ПРОГРАММЫ КОПИРОВАНИЯ CSV ФАЙЛОВ")
-    logger.info(f"Дата и время запуска: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     logger.info(f"Список файлов для обработки ({len(csv_files_list)} файлов):")
     for file_path in csv_files_list:
         logger.info(f"  - {file_path}")
 
-    try:
-        # Запускаем процесс копирования
-        copy_from_csv_to_new_file(csv_files_list, str(output_directory), logger)
-        logger.info("Программа успешно завершила работу")
+    # Запускаем процесс копирования
+    copy_from_csv_to_new_file(csv_files_list, str(output_directory), logger)
+    logger.info("Программа успешно завершила работу")
 
-    except Exception as e:
-        logger.critical(f"Программа завершилась с критической ошибкой: {str(e)}")
-        raise
-
-    logger.info("=" * 60 + "\n")
 
 if __name__ == '__main__':
     main()
